@@ -1,0 +1,11 @@
+version: "3"
+services:
+  cs415-db:
+    build: ./
+    image: image_cs415-db
+    container_name: container-cs415-db
+    restart: always
+    stdin_open: true
+    tty: true
+    ports:
+      - 5432:5432
