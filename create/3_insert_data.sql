@@ -37,10 +37,10 @@ ALTER SEQUENCE PhoneType_phone_type_id_seq RESTART WITH 5;
 -- UserPhone
 INSERT INTO UserPhone(user_phone_id,phone_type_id,web_user_id,phone_number,created_date,is_active)
 VALUES
-    (1,1,1,'8015551234',CURRENT_TIMESTAMP,1),
-    (2,2,1,'8015555678',CURRENT_TIMESTAMP,1),
-    (3,3,1,'8015559012',CURRENT_TIMESTAMP,1),
-    (4,4,1,'8015553456',CURRENT_TIMESTAMP,1);
+    (1,1,1,'8015551234',CURRENT_TIMESTAMP,true),
+    (2,2,1,'8015555678',CURRENT_TIMESTAMP,true),
+    (3,3,1,'8015559012',CURRENT_TIMESTAMP,true),
+    (4,4,1,'8015553456',CURRENT_TIMESTAMP,true);
 ALTER SEQUENCE UserPhone_user_phone_id_seq RESTART WITH 5;
 
 -- UserInfo
